@@ -1,0 +1,59 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+h1{
+    color:orangered;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h2,h3{
+    margin-left: 10px;
+    color: #003366;
+}
+
+p{
+    margin-left: 10px;
+}
+
+img{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#multimedia{
+    margin-left: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+audio{
+    margin-top: 10px;
+}
+#tabla{
+    width: 100%;
+    align-content: center;
+}
+#tablaFormulario{
+    border: 3px solid black;
+    border-collapse: collapse;
+    margin: 10px ;
+    width: 100px !important;
+    text-align: center;
+}
+
+#tablaFormulario td{
+    border: 2px solid black;
+    text-align: center;
+    padding: 7px;
+}
+
+footer{
+    text-align: center;
+
+}

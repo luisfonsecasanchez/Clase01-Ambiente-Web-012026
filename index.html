@@ -1,24 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./Estilos/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <title>Clase 01</title>
 </head>
 <body>
-<h1>Mi primera página web</h1>
-<p>Lorem ipsum dolor sit amet consectetur 
-    adipisicing elit. Sequi officia 
-    quisquam cum, nihil, sint eos delectus
-     iste ipsa fugit praesentium blanditiis
-      reiciendis saepe commodi nisi
-       exercitationem iure ducimus alias aperiam.</p>
-       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis soluta delectus natus molestiae sed nam. Repellendus harum beatae ratione labore, odit aspernatur corrupti atque eos et ullam, pariatur ad?</p>
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ducimus amet minima error? Aliquam, aliquid harum illo rerum alias soluta, in id, quae cupiditate cumque ea inventore blanditiis a provident?</p>
-<h2>Servicios en línea</h2>
-<p>A continuación se muestran los servicios en línea:</p>
-<h3>Acerca de nosotros</h3>
-<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas temporibus laboriosam, voluptatibus aperiam dolor recusandae, perferendis harum cupiditate hic nulla et dicta eligendi earum accusantium. Eius quis ipsum rerum unde?</p>
-    </body>
-<footer>Desarrollado por el Ing. Luis Fernando Fonseca Sànchez 2026</footer>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Ambiente Web</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link active" href="#"><i class="bi bi-house"></i> Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link " href="https://getbootstrap.com/"><i class="bi bi-bootstrap"></i> Bootstrap</a></li>
+                        <li class="nav-item"><a class="nav-link " href="informacion.html"><i class="bi bi-info-circle"></i> Información del curso</a></li>
+                    </ul>
+                </div>
+            </div>    
+        </nav>
+    </header>
+    <main>
+        <h1> Bienvenidos a la programación Web</h1>
+        <article>
+            <p>Este es el curso de <strong>Ambiente Web Cliente/Servidor</strong> donde vamos a aprender como <em>desarrollar p&aacute;ginas web</em></p>
+            <img src="https://www.rananegra.es/uploads/images/1_main-programacion-web.png" width="300" height="250">
+            <h2>Lenguajes del curso</h2>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSSS3</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                </ul>
+                <h3>Otros elementos</h3>
+                <ol>
+                    <li>Bootstrap</li>
+                    <li>JQuery</li>
+                    <li>MySQL</li>
+                     <li>Cualquier Otro</li>
+                </ol>
+        </article>
+        <div id="multimedia">
+            <video controls autoplay muted name="ejemVideo" type="video/mp4"
+                src="https://v.ftcdn.net/13/94/08/73/700_F_1394087337_TP4MfkYFoZNkTc26r8CNDa5RVvjytseN_ST.mp4">
+            </video>
+            <audio controls>
+                <source src="./sonidos/bird.mp3"></source>
+            </audio>
+        </div>
+    </main>
+</body>
+<footer>
+    Desarrollado por Ing. Jose Danilo Chinchilla
+</footer>
 </html>
