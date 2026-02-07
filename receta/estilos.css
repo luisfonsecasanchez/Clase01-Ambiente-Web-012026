@@ -1,0 +1,61 @@
+/* ESTILOS GENERALES */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #45e675;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* GRID PRINCIPAL */
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+/* SECCIONES */
+.seccion {
+    background-color: white;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+/* VIDEO PIZZA */
+.video-contenedor {
+    max-width: 100%;
+}
+
+.video-contenedor video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; 
+}
+
+
+/* IMAGEN PIZZA */
+.imagen img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* FLEXBOX EN INGREDIENTES */
+.ingredientes ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* FLEXBOX EN PASOS */
+.pasos ol {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
